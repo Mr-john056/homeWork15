@@ -13,5 +13,6 @@ public class Truck extends Car {
     @Override
     public void check() {
         super.check();
+        checkTrailer();
     }
 }

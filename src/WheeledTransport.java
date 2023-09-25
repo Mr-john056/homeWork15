@@ -22,8 +22,6 @@ public abstract  class WheeledTransport {
         }
     }
 
-    public abstract void check(Car car, Bicycle bicycle, Truck truck);
-
     public void check() {
         welcomeMessage();
         checkTyre(wheelsCount);
